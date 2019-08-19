@@ -4,9 +4,58 @@ body {
     color: #777777;
 }
 
-h1,
-h2 {
+.section-title,
+.name {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.name {
+    font-size: 1.25em;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 85px;
+    width: 325px;
+    text-align: center;
+    vertical-align: middle;
+    position: fixed;
+    top: 0px;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #ffffff;
+    width: 100%;
+    height: 85px;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+    border-bottom-style: inset;
+}
+
+.head-container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #cccccc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav {
+    padding-right: 20px;
+}
+
+.navlinks {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right-color: #cccccc;
+    border-right-width: 1px;
+    border-right-style: inset
 }
 
 article {
@@ -16,8 +65,11 @@ article {
     background-color: #ffffff;
     line-height: 32px;
     position: relative;
-    top: 100px;
-    height: 700px;
+    top: 110px;
+    height: 550px;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #dddddd;
 }
 
 .section-title {
@@ -25,13 +77,14 @@ article {
     position: relative;
     top: 30px;
     left: 30px;
+    font-weight: bolder;
+    font-size: 2em;
 }
 
 .text-box {
     position: relative;
-    top: 60px;
-    left: 30px;
-    width: 910px;
+    top: 35px;
+    width: 875px;
 }
 
 #aboutme-img {
@@ -39,11 +92,13 @@ article {
     padding-right: 20px;
 }
 
-.header {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
+.horizontal-line {
+    height: 3px;
+    width: 910px;
+    background-color: #dddddd;
+    position: relative;
+    left: 30px;
+    top: 30px;
 }
 
 .navbar {
