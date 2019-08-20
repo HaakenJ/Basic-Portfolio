@@ -85,6 +85,29 @@ nav {
     border-right-width: 1px;
     border-right-style: inset
 }
+#about-link {
+    -webkit-transition: 0.5s;
+}
+
+#portfolio-link {
+    -webkit-transition: 0.5s;
+}
+
+#contact-link {
+    -webkit-transition: 0.5s;
+}
+
+#about-link:hover {
+    font-size: 2em;
+}
+
+#portfolio-link:hover {
+    font-size: 2em;
+}
+
+#contact-link:hover {
+    font-size: 2em;
+}
 
 article {
     width: 960px;
