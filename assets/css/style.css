@@ -193,3 +193,72 @@ footer {
     font-size: 1.25em;
 }
 
+.submit-button {
+    width: 125px;
+    height: 35px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 1.25em;
+    text-align: center;
+    border-style: none;
+    border-radius: 4px;
+    box-shadow: 2px 3px #999;
+}
+
+.submit-button:active { /* To move button down 4px on y-axis when clicked */
+    background-color: #3b8884;
+    box-shadow: 1px 2px #666;
+    transform: translateY(4px);
+}
+
+.submit-button span { /* Change the cursor to a pointer when hovering */
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 (I know, unecessary for this project...) */
+}
+
+.submit-button span:after { /* To insert two gt arrows after 'Submit' but not visible until hovering. */
+    content: "\00bb"; 
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    -webkit-transition: 0.5s;
+}
+
+.submit-button:hover span { /* Move content to left to make room for arrows */
+    padding-right: 20px;
+}
+
+.submit-button:hover span:after { /* Make arrows visible while hovering over button */
+    opacity: 1;
+    right: 0;
+}
+
+input[type=text] {
+    width: 875px;
+    padding-left: 10px;
+    border: 1px solid #4aaaa5;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+textarea {
+    width: 875px;
+    height: 175px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid #4aaaa5;
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    resize: none;
+}

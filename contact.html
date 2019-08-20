@@ -25,20 +25,20 @@
         <article class="contact">
             <h2 class="section-title">Contact</h2>
             <div class="horizontal-line">
+            
             <form class="contact-form">
-                Name
-                <br>
-                <input type="text" name="name" value="John Smith">
-                <br>
-                Email
-                <br>
-                <input type="text" name="email" value="example@gmail.com">
-                <br>
-                Message
-                <br>
-                <input class="messagebox" type="text" name="message">
+                <label for="name">Name</label>
+                <input class="namebox" type="text" name="name" placeholder="John Smith">
+                
+                <label for="email">Email</label>
+                <input class="emailbox" type="text" name="email" placeholder="example@gmail.com">
+                
+                <label for="message">Message</label>
+                <textarea cols="20" rows="10"></textarea> <!-- Using <textarea> to prevent cursor from starting in middle of text field.
+                    This also prevents resizing of the box with the css resize property. -->
             </form>
-            <button class="submit-button" type="button">Submit</button>
+            <button class="submit-button" type="button"><span>Submit </span></button>
+        
         </article>
 
         <footer>
