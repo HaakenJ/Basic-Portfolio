@@ -12,13 +12,30 @@ body {
     height: 1400px;
 }
 
+.contact-body {
+    height: 800px;
+}
+
+.portfolio-body {
+    height: 1400px;
+}
+
+.index-body {
+    height: 900px;
+}
+
 .section-title,
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .name {
-    font-size: 1.25em;
+    font-size: 2.25em;
     background-color: #4aaaa5;
     color: #ffffff;
     height: 100px;
@@ -146,22 +163,29 @@ footer {
 
 .container-1 {
     float: left;
+    position: relative;
 }
 
 .container-2 {
     float: left;
     padding-left: 40px;
+    position: relative;
 }
 
 .container-3 {
     float: left;
+    position: relative;
 }
 
 .container-4 {
     float: left;
     padding-left: 40px;
+    position: relative;
 }
 
-
-
+.image-text {
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom: 10;
+}
 
