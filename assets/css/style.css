@@ -35,13 +35,12 @@ h2 {
 }
 
 .name {
-    font-size: 2.25em;
+    font-size: 2em;
     background-color: #4aaaa5;
     color: #ffffff;
     height: 100px;
     width: 325px;
     text-align: center;
-    vertical-align: middle;
     position: absolute;
     top: 0px;
 }
@@ -52,8 +51,7 @@ header {
     left: 0px;
     right: 0px;
     background-color: #ffffff;
-    margin: 0 -9999rem;
-    padding: 0.25 rem 9999rem;
+    margin: 0 -99em;
     height: 100px;
     border-bottom-color: #cccccc;
     border-bottom-width: 2px;
@@ -134,20 +132,13 @@ article {
 footer {
     background-color: #666666;
     position: absolute;
-    bottom: -10px;
+    bottom: 0;
     right: 0;
     left: 0;
-    margin: 0 -9999rem;
-    padding: 5px;
-}
-
-.footerbar {
-    position: relative;
-    top: -10px;
-    height: 5px;
-    background-color: #4aaaa5;
-    padding: 1px;
-    margin: 0 -9999rem;
+    height: 55px;
+    /* margin: 0 -9999rem; */
+    /* padding: 5px; */
+    border-top: 8px solid #4aaaa5;
 }
 
 .copywright {
@@ -175,17 +166,30 @@ footer {
 .container-3 {
     float: left;
     position: relative;
+    top: 20px;
 }
 
 .container-4 {
     float: left;
     padding-left: 40px;
     position: relative;
+    top: 20px;
+}
+
+.container-5 {
+    float: left;
+    position: relative;
+    top: 40px;
 }
 
 .image-text {
     background-color: #4aaaa5;
     position: absolute;
-    bottom: 10;
+    bottom: 40px;
+    z-index: 1;
+    width: 325px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.25em;
 }
 
