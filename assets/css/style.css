@@ -1,5 +1,5 @@
 html {
-    height: 900px;
+    height: 100%;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     position: relative;
-    min-height: 100%;
+    height: 1400px;
 }
 
 .section-title,
@@ -139,3 +139,29 @@ footer {
     text-align: center;
     color: #dddddd;
 }
+
+.portfolio {
+    height: 1100px;
+}
+
+.container-1 {
+    float: left;
+}
+
+.container-2 {
+    float: left;
+    padding-left: 40px;
+}
+
+.container-3 {
+    float: left;
+}
+
+.container-4 {
+    float: left;
+    padding-left: 40px;
+}
+
+
+
+
