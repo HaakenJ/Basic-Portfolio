@@ -2,6 +2,10 @@ html {
     height: 100%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/background.png");
@@ -35,7 +39,7 @@ h2 {
 }
 
 .name {
-    font-size: 2em;
+    font-size: 3vw;
     background-color: #4aaaa5;
     color: #ffffff;
     height: 100px;
@@ -109,15 +113,21 @@ nav {
     font-size: 2em;
 }
 
+@media only screen and (max-width: 800px) {
+    article {
+        height: 60vw;
+    }
+}
+
 article {
-    width: 960px;
+    width: 75vw;
+    height: 40vw;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
     line-height: 32px;
     position: relative;
     top: 130px;
-    height: 550px;
     border-style: outset;
     border-width: 2px;
     border-color: #dddddd;
@@ -129,13 +139,24 @@ article {
     top: 30px;
     left: 30px;
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 3vw;
+}
+
+.horizontal-line {
+    height: 3px;
+    width: 70vw;
+    background-color: #dddddd;
+    position: relative;
+    left: 30px;
+    top: 30px;
 }
 
 .text-box {
     position: relative;
     top: 35px;
-    width: 875px;
+    width: 70vw;
+    height: 30vw;
+    font-size: 1.25vw;
 }
 
 #aboutme-img {
@@ -143,14 +164,7 @@ article {
     padding-right: 20px;
 }
 
-.horizontal-line {
-    height: 3px;
-    width: 910px;
-    background-color: #dddddd;
-    position: relative;
-    left: 30px;
-    top: 30px;
-}
+
 
 footer {
     background-color: #666666;
