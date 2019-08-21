@@ -31,9 +31,11 @@
         font-size: 2.5em;
         width: 400px;
         height: 99px;
+        transition: 0.5s;
     }
     header {
         height: 100px;
+        transition: 0.5s;
     }
     a {
         font-size: 1.5em;
@@ -48,6 +50,8 @@
     }
     .text-box {
         font-size: 1em;
+        line-height: 27px;
+        transition: 0.5s;
     }
 }
 
@@ -57,5 +61,8 @@
     }
     .name {
         height: 49px;
+    }
+    .text-box {
+        line-height: 30px;
     }
 }

@@ -21,7 +21,7 @@ body {
 }
 
 .index-body {
-    height: 900px;
+    height: 100%;
 }
 
 .section-title,
@@ -35,7 +35,6 @@ header {
     left: 0px;
     right: 0px;
     background-color: #ffffff;
-    /* margin: 0 -99em; */
     height: 7vw;
     border-bottom-color: #cccccc;
     border-bottom-width: 2px;
@@ -156,17 +155,14 @@ article {
     height: 12vw;
 }
 
-
-
 footer {
     background-color: #666666;
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
-    height: 55px;
-    /* margin: 0 -9999rem; */
-    /* padding: 5px; */
+    height: 5vw;
+    max-height: 60px;
     border-top: 8px solid #4aaaa5;
 }
 
