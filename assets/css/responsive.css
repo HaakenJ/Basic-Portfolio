@@ -38,6 +38,17 @@
     a {
         font-size: 1.5em;
     }
+    .section-title {
+        font-size: 2.25em
+    }
+    #aboutme-img {
+        height: 165px;
+        width: 215px;
+        transition: 0.5s;
+    }
+    .text-box {
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 768px) { /* For very small displays, not optimized for mobile. */
