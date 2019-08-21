@@ -27,6 +27,7 @@ body {
 .section-title,
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.5s;
 }
 
 header {
@@ -39,6 +40,7 @@ header {
     border-bottom-color: #cccccc;
     border-bottom-width: 2px;
     border-bottom-style: inset;
+    transition: 0.5s;
 }
 
 .head-container {
@@ -75,6 +77,7 @@ a {
     text-decoration: none;
     font-weight: 500;
     font-size: 2vw;
+    transition: 0.5s;
 }
 
 .navlinks {
@@ -109,7 +112,7 @@ a {
 }
 
 article {
-    height: 70%;
+    height: 75%;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
@@ -119,6 +122,7 @@ article {
     border-style: outset;
     border-width: 2px;
     border-color: #dddddd;
+    transition: 0.25s;
 }
 
 .section-title {
@@ -128,6 +132,7 @@ article {
     left: 30px;
     font-weight: bolder;
     font-size: 3vw;
+    transition: 0.5s;
 }
 
 .horizontal-line {
@@ -145,6 +150,8 @@ article {
     width: 90%;
     height: 75%;
     font-size: 1.25vw;
+    transition: 0.25s;
+    line-height: 2.8vw;
 }
 
 #aboutme-img {
@@ -153,6 +160,7 @@ article {
     max-width: 100%;
     /* width: 30%; */
     height: 12vw;
+    transition: 0.5s;
 }
 
 footer {
