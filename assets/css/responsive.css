@@ -10,42 +10,22 @@
 .col-2 {width: 75%;}
 .col-3 {width: 100%;}
 
-@media screen and (min-width: 1200px) { /* For wider displays. */
-    .name {
-        font-size: 2.5em;
-        width: 400px;
-        height: 99px;
+@media screen and (max-width: 344px) { /* For extra small mobile displays. */
+    .index-body {
+        height: 575px;
     }
-    header {
-        height: 100px;
-    }
-    a {
-        font-size: 1.5em;
-    }
-    .section-title {
-        font-size: 2.25em
-    }
-    #aboutme-img {
-        height: 165px;
-        width: 215px;
-    }
-    .text-box {
-        font-size: 1em;
-        line-height: 25px;
-    }
-    article {
-        height: 68%;
-    }
-}
-
-@media screen and (max-width: 768px) { /* For very small displays, not optimized for mobile. */
     header {
         height: 40px;
     }
     .name {
         height: 39px;
-        font-size: .5em;
+        font-size: .4em;
         width: 20%;
+    }
+    h2 {
+        position: absolute;
+        top: -12px;
+        left: -1px;
     }
     a {
         font-size: .5em;
@@ -57,20 +37,195 @@
     }
     .text-box {
         font-size: .5em;
-        line-height: 20px;
-        height: 200wv;
-
+        line-height: 1.5em;
+        position: relative;
+        top: 20px;
+        width: 100%;
     }
     article {
         position: relative;
-        top: 55px;
+        top: 60px;
+        left: -8px;
+        height: 75%;
+        width: 100%;
     }
     .section-title {
         position: relative;
-        top: -20px;
+        top: -33px;
+        left: 6px;
     }
     .horizontal-line {
         position: relative;
-        top: -40px;
+        top: -60px;
+        left: 6px;
+    }
+}
+
+@media screen and (min-width: 345px) { /* For mobile displays. */
+    .index-body {
+        height: 700px;
+    }
+    header {
+        height: 40px;
+    }
+    .name {
+        height: 39px;
+        font-size: .5em;
+        width: 20%;
+    }
+    h2 {
+        position: absolute;
+        top: -14px;
+        left: 7px;
+    }
+    a {
+        font-size: .5em;
+    }
+    nav {
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+    .text-box {
+        font-size: 2vw;
+        line-height: 3vw;
+        position: relative;
+        top: 20px;
+        width: 100%;
+    }
+    article {
+        position: relative;
+        top: 60px;
+        left: -8px;
+        height: 75%;
+        width: 100%;
+    }
+    .section-title {
+        position: relative;
+        top: -33px;
+        left: 6px;
+    }
+    .horizontal-line {
+        position: relative;
+        top: -60px;
+        left: 6px;
+    }
+    #aboutme-img {
+        width: 25vw;
+        height: 20vw;
+    }
+}
+
+@media screen and (min-width: 768px) { /* For tablet sized dispalys. */
+    .index-body {
+        height: 1440px;
+    }
+    header {
+        height: 75px;
+    }
+    .name {
+        height: 74px;
+        width: 33%;
+    }
+    h2 {
+        position: absolute;
+        top: -3px;
+        left: 6px;
+        font-size: 3vw;
+    }
+    a {
+        font-size: 2.2vw;
+    }
+    nav {
+        position: absolute;
+        top: 24px;
+        right: -12px;
+    }
+    .text-box {
+        font-size: 2.2vw;
+        line-height: 3.1vw;
+        position: relative;
+        top: 20px;
+        width: 100%;
+    }
+    article {
+        position: relative;
+        top: 110px;
+        left: -8px;
+        height: 60%;
+        width: 100%;
+    }
+    .section-title {
+        position: relative;
+        top: -12px;
+        left: 24px;
+        font-size: 3vw;
+    }
+    .horizontal-line {
+        position: relative;
+        top: -12px;
+        left: 24px;
+    }
+}
+
+@media screen and (min-width: 1050px) { /* For large displays. */
+    .index-body {
+        height: 900px;
+    }
+    header {
+        height: 75px;
+    }
+    .name {
+        height: 74px;
+        width: 320px;
+    }
+    h2 {
+        position: absolute;
+        top: -3px;
+        left: 30px;
+        font-size: 33px;
+    }
+    a {
+        font-size: 24px;
+    }
+    nav {
+        position: absolute;
+        top: 24px;
+        right: -12px;
+    }
+    .text-box {
+        font-size: 16px;
+        line-height: 24px;
+        position: relative;
+        top: 20px;
+        width: 100%;
+    }
+    article {
+        position: relative;
+        top: 140px;
+        left: -18px;
+        height: 60%;
+        width: 100%;
+    }
+    .section-title {
+        position: relative;
+        top: -12px;
+        left: 24px;
+        font-size: 30px;
+    }
+    .horizontal-line {
+        position: relative;
+        top: -12px;
+        left: 24px;
+    }
+    #aboutme-img {
+        width: 200px;
+        height: 150px;
+    }
+    footer {
+        position: absolute;
+        top: 96%;
+        right: 0;
+        left: 0;
     }
 }
