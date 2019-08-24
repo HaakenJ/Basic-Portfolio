@@ -1,0 +1,119 @@
+[33mcommit 41cd9a671fd5076a6c44e81e66d67240b44c7489[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Thu Aug 22 10:15:51 2019 -0700
+
+    Made media queries for xm, s, m, lg display sizes
+
+[33mcommit a95da4e71910a7d610bd0e3308812121e00094b9[m[33m ([m[1;31morigin/responsive[m[33m, [m[1;32mresponsive[m[33m)[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Wed Aug 21 17:57:55 2019 -0700
+
+    First attempt at making mobile compatible.
+
+[33mcommit 086a8ce18447e25b3f2173bc8147e03d26949d2f[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Wed Aug 21 16:13:02 2019 -0700
+
+    Adjusted line heights for about me
+
+[33mcommit ecc1dde44af512dbd6a52a4ce41e149380b3eac0[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Wed Aug 21 12:33:44 2019 -0700
+
+    Added responsive line-heights and cleaned up column numbers.
+
+[33mcommit 02c787581db21914284c0e59b1da20e7bbafa939[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Wed Aug 21 12:02:46 2019 -0700
+
+    Made footer responsive, adjusted line-height for lg, sm screen width, added transitions.
+
+[33mcommit 81b97cf1ed535d8b4113a19d115e79bf426ee2e4[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Wed Aug 21 11:26:29 2019 -0700
+
+    Set max size for text and image in About Me section
+
+[33mcommit 74653139c7a8150acf10e9fc8032dd1ec96192af[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Wed Aug 21 11:20:47 2019 -0700
+
+    New responsive.css file contains column styling and media queries
+
+[33mcommit 0ae37d500ad787f7d90b3e010fc5ccb6ad2008f5[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Wed Aug 21 10:40:10 2019 -0700
+
+    Beggining to add responsive widths.
+
+[33mcommit 5cfbdb91cb747824b81e0c055850ad59e9f9a10c[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Tue Aug 20 11:08:47 2019 -0700
+
+    Added hover animation for nav links.
+
+[33mcommit de0db1ccd828ff5ee3cfe90f8f350364ea48aa3b[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Tue Aug 20 10:56:01 2019 -0700
+
+    Added fading animations to portfolio images.
+
+[33mcommit 9dae1475b9cfde75a64df49fb724282dd2c2f77b[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Tue Aug 20 09:46:14 2019 -0700
+
+    Finished css on Contact page.  Added animations to submit button.
+
+[33mcommit 9787aae00a803f1e49666e70dfae249c20fbbd11[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Tue Aug 20 08:42:08 2019 -0700
+
+    finished formatting portfolio.  Fixed footer.  Reset contact & portfolio.
+
+[33mcommit c5d598d84708da4f5eb3fa96ddf59741477ccfcd[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Mon Aug 19 20:40:26 2019 -0700
+
+    added reset.css for cross-browser compat. need to fix foot, headers
+
+[33mcommit 75d0e3c786ed285b95437315975111ac379fe2b3[m[33m ([m[1;31morigin/cross-browser[m[33m)[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Mon Aug 19 18:27:57 2019 -0700
+
+    fixed footer, floated images on portfolio page
+
+[33mcommit 10d5eb0e8a3a139fc8334b1ce089e1a9d3a4d1f9[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Mon Aug 19 13:46:26 2019 -0700
+
+    finished css styling About Me page; header, footer don't stay fixed
+
+[33mcommit 33ebff3523e1666c7f9ffc549051befa60132de1[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Mon Aug 19 12:01:07 2019 -0700
+
+    css styling for About Me article and header
+
+[33mcommit 6b72876965774d170c7d9a2755ef0e6de228344d[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Mon Aug 19 10:05:53 2019 -0700
+
+    added initial css; focus on About Me page
+
+[33mcommit 7e4f524f80c77542e3e429895be7f4adc0cd8915[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Mon Aug 19 09:34:11 2019 -0700
+
+    completed the html framework
+
+[33mcommit 2ffe4bb6998b2730e8a13dd2b98241592b195609[m
+Author: Haakasaurus <kramerhjohnson@gmail.com>
+Date:   Thu Aug 15 09:57:46 2019 -0700
+
+    initial site files
+
+[33mcommit 60398533cf3a1fb117565b3285d9ca9071b417b4[m
+Author: Kramer Johnson <49767866+HaakenJ@users.noreply.github.com>
+Date:   Thu Aug 15 09:55:07 2019 -0700
+
+    Initial commit

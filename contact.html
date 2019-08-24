@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
     </head>
 
     <body class="contact-body">
@@ -22,7 +23,9 @@
                 </div>
         </header>
 
-        <article class="contact">
+        <div class="col-1"></div>
+
+        <article class="contact col-2">
             <h2 class="section-title">Contact</h2>
             <div class="horizontal-line">
             
@@ -34,14 +37,14 @@
                 <input class="emailbox" type="text" name="email" placeholder="example@gmail.com">
                 
                 <label for="message">Message</label>
-                <textarea cols="20" rows="10"></textarea> <!-- Using <textarea> to prevent cursor from starting in middle of text field.
-                    This also prevents resizing of the box with the css resize property. -->
+                
+                <textarea cols="20" rows="10"></textarea> <!-- Using <textarea> to prevent cursor from starting in middle of text field. -->
             </form>
             <button class="submit-button" type="button"><span>Submit </span></button>
         
         </article>
 
-        <footer>
+        <footer class="col-3">
             <p class="copywright">Copyright&#169</p>
         </footer>
     </body>
