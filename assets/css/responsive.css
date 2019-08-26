@@ -34,6 +34,9 @@
         left: -1px;
         font-size: 15px;   
     }
+    .name h2 {
+        font-size: 10px;
+    }
     a {
         font-size: .5em;
     }
@@ -81,12 +84,12 @@
         height: 700px;
     }
     header {
-        height: 40px;
+        height: 50px;
     }
     .name {
-        height: 39px;
-        font-size: .3em;
-        width: 20%;
+        height: 49px;
+        font-size: 15px;
+        width: 33%;
     }
     h2 {
         position: absolute;
@@ -96,16 +99,29 @@
     .name h2 {
         font-size: 15px;
     }
-    article h2 {
-        font-size: 20px;
+    label {
+        font-size: 12px;
     }
     a {
-        font-size: .5em;
+        font-size: 10px;
+        position: relative;
+        top: 10px;
     }
     nav {
         position: absolute;
         top: 10px;
         right: 0;
+    }
+    #about-link:hover {
+        font-size: 14px;
+    }
+    
+    #portfolio-link:hover {
+        font-size: 14px;
+    }
+    
+    #contact-link:hover {
+        font-size: 14px;
     }
     .text-box {
         font-size: 2vw;
@@ -125,6 +141,7 @@
         position: relative;
         top: -33px;
         left: 6px;
+        font-size: 16px;
     }
     .horizontal-line {
         position: relative;
@@ -135,11 +152,18 @@
         width: 25vw;
         height: 20vw;
     }
+    .submit-button {
+        width: 80px;
+        height: 25px;
+        font-size: 15px;
+    }
 }
 
 @media screen and (min-width: 768px) { /* For tablet sized dispalys. */
-    .index-body {
-        height: 1440px;
+    .index-body,
+    .contact-body,
+    .portfolio-body {
+        height: 1024px;
     }
     header {
         height: 75px;
@@ -152,15 +176,28 @@
         position: absolute;
         top: -3px;
         left: 6px;
-        font-size: 3vw;
+    }
+    .name h2 {
+        font-size: 23px;
     }
     a {
-        font-size: 2.2vw;
+        font-size: 20px;
     }
     nav {
         position: absolute;
         top: 24px;
         right: -12px;
+    }
+    #about-link:hover {
+        font-size: 23px;
+    }
+    
+    #portfolio-link:hover {
+        font-size: 23px;
+    }
+    
+    #contact-link:hover {
+        font-size: 23px;
     }
     .text-box {
         font-size: 2.2vw;
@@ -178,78 +215,99 @@
     }
     .section-title {
         position: relative;
-        top: -12px;
-        left: 24px;
-        font-size: 3vw;
+        top: -20px;
+        left: 20px;
+        font-size: 21px;
+    }
+    label {
+        font-size: 15px;
     }
     .horizontal-line {
         position: relative;
-        top: -12px;
-        left: 24px;
+        top: -40px;
+        left: 20px;
+    }
+    .submit-button {
+        width: 130px;
+        height: 35px;
+        font-size: 20px;
     }
 }
 
 @media screen and (min-width: 1050px) { /* For large displays. */
-    .index-body {
-        height: 900px;
+    .index-body,
+    .contact-body,
+    .portfolio-body {
+        height: 1680px;
+    }
+    .contact {
+        height: 700px;
     }
     header {
         height: 75px;
     }
     .name {
         height: 74px;
-        width: 320px;
+        width: 33%;
     }
     h2 {
         position: absolute;
         top: -3px;
-        left: 30px;
-        font-size: 33px;
+        left: 6px;
+    }
+    .name h2 {
+        font-size: 30px;
     }
     a {
-        font-size: 24px;
+        font-size: 20px;
     }
     nav {
         position: absolute;
         top: 24px;
         right: -12px;
     }
+    #about-link:hover {
+        font-size: 23px;
+    }
+    
+    #portfolio-link:hover {
+        font-size: 23px;
+    }
+    
+    #contact-link:hover {
+        font-size: 23px;
+    }
     .text-box {
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 2.2vw;
+        line-height: 3.1vw;
         position: relative;
         top: 20px;
         width: 100%;
     }
     article {
         position: relative;
-        top: 140px;
-        left: -18px;
+        top: 110px;
+        left: -8px;
         height: 60%;
         width: 100%;
     }
     .section-title {
         position: relative;
-        top: -12px;
-        left: 24px;
-        font-size: 30px;
+        top: -20px;
+        left: 20px;
+        font-size: 27px;
+    }
+    label {
+        font-size: 15px;
     }
     .horizontal-line {
         position: relative;
-        top: -12px;
-        left: 24px;
+        top: -30px;
+        left: 20px;
     }
-    #aboutme-img {
-        width: 200px;
-        height: 150px;
-    }
-    footer {
-        position: absolute;
-        top: 96%;
-        right: 0;
-        left: 0;
-    }
-    .contact {
-        height: 70%;
+    .submit-button {
+        width: 130px;
+        height: 35px;
+        font-size: 20px;
     }
 }
